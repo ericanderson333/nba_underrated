@@ -86,6 +86,7 @@ def find_top_min_avg(top_50):
         avg += num
     return round((avg/count), 1)
 
+
 def calc_underrated(bottom_df, top_avg):
     if bottom_df.empty:
         print('Error')
